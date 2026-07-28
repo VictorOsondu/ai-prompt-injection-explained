@@ -86,7 +86,7 @@ So the useful question about any assistant you use is what it can reach, and wha
 
 There is no complete fix available to you today. I'd rather say that plainly than hand you a checklist that implies otherwise.
 
-Researchers have been working on this since 2022 and nobody has produced a general defence. Vendors filter inputs and patch what gets reported. The better ones tell you when they've done it. All of that raises the cost of an attack. None of it closes the hole.
+Researchers have been working on this for years and nobody has produced a general defence. Vendors filter inputs and patch what gets reported. The better ones tell you when they've done it. All of that raises the cost of an attack. None of it closes the hole.
 
 What you can change is how much damage a successful injection could do. That's the whole game for an individual user.
 
