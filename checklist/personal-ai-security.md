@@ -4,6 +4,8 @@ A practical checklist for limiting what a stranger can make your assistant do. W
 
 This is the companion to the **[personal AI data-hygiene checklist](https://github.com/VictorOsondu/ai-data-privacy-playbook/blob/main/checklist/ai-data-hygiene.md)**, which covers the other half of the problem: what you type in, what the vendor keeps, and which settings change that. Neither list is complete on its own. An assistant can be configured perfectly for privacy and still act on an instruction hidden in a document you asked it to read.
 
+Some of the controls below don't exist in some products. Finding that out is a useful result rather than a failed tick, because it tells you which parts of your exposure are fixed and which are adjustable.
+
 Last reviewed: 2026-07-28. See [sources and verification notes](../sources.md).
 
 ## What can my assistant reach?
@@ -12,17 +14,17 @@ Last reviewed: 2026-07-28. See [sources and verification notes](../sources.md).
 - [ ] For each one, I know which **mailboxes** it can read.
 - [ ] I know which **files, folders and drives** it can read, and whether that's a folder or the lot.
 - [ ] I know whether it can see my **calendar**, and whose meetings appear in it.
-- [ ] I know which **chat or workspace content** it can search — including channels I belong to but never actually read.
-- [ ] I know which **actions** it can take on my behalf: sending mail, creating or editing files, browsing the web, calling other services.
-- [ ] Where I couldn't answer one of those, I've gone and looked rather than assumed.
+- [ ] I've checked which **chat or workspace content** it can search, including channels I belong to but never actually read. Several products won't tell you, and I know which answer I got.
+- [ ] I know which **actions** it can take on my behalf: sending mail, creating or editing files, browsing the web, calling other services. Where the product doesn't list them, I'm assuming it can do more than I'd guess.
+- [ ] Where I couldn't answer one of those, I've gone and looked. Where looking turned up nothing, I've written it down as unknown rather than treating it as fine.
 
 ## Connectors and permissions
 
-- [ ] I've opened the **connected apps / integrations** screen on each assistant in the last three months and read it properly.
+- [ ] I've opened the **connected apps / integrations** screen on every assistant that has one, in the last three months, and read it properly.
 - [ ] I've **disconnected** anything I set up to try out and then stopped using.
 - [ ] Where a connector offers **read-only**, that's what it has, unless I genuinely need it to write.
-- [ ] Each connector is **scoped as narrowly as still works** — one folder rather than the whole drive, one mailbox rather than every account.
-- [ ] Nothing **irreversible** happens without me seeing it first: mail leaving the organisation, files shared externally, records deleted, anything involving money.
+- [ ] I've checked whether each connector can be **scoped more narrowly** — one folder rather than the whole drive, one mailbox rather than every account — and narrowed the ones that can be. Where it's all or nothing, I know that's the trade I'm making.
+- [ ] I've checked whether the assistant can be made to **confirm with me before anything irreversible**: mail leaving the organisation, files shared externally, records deleted, anything involving money. Where there's no such setting, I know it, and I've decided whether the connector is worth keeping on those terms.
 - [ ] Where the permission I want to change is controlled by an administrator, I know **who to ask**, and I've asked.
 - [ ] The next review is **in my diary**, not in my head. Every three months, and after any major tool update.
 
@@ -49,7 +51,7 @@ Odd means an action you didn't ask for, a link to somewhere you don't recognise,
 
 - [ ] **Stop.** End that conversation, and don't click anything it produced.
 - [ ] **Capture it.** Screenshot the exchange and note the date, the tool, and which document, page or message was involved. Copy the text out as well — chat histories get cleared.
-- [ ] **Cut its reach.** Disconnect the connectors that assistant is using. It's reversible, it takes a minute, and it needs nobody's permission.
+- [ ] **Cut its reach.** Disconnect the connectors that assistant is using. It's reversible and it takes a minute. If an administrator set them up and you can't remove them yourself, that's the first thing to say when you report it.
 - [ ] **Change anything that could have leaked.** Credentials, API keys, tokens and recovery phrases get rotated rather than trusted — see the [data-hygiene checklist](https://github.com/VictorOsondu/ai-data-privacy-playbook/blob/main/checklist/ai-data-hygiene.md) for that side of it.
 - [ ] **Tell someone.** At work, that's whoever handles IT or security, plus whoever owns data protection if other people's data was in reach. Same day, even if you're not sure yet.
 - [ ] **Keep the document.** Don't delete the file or email that triggered it. It's the only evidence of what happened.
