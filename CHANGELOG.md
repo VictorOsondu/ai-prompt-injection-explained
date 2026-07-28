@@ -9,6 +9,8 @@ This project follows [Semantic Versioning](https://semver.org/).
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — payload rules governing every demo payload in this repository.
 - **[sources.md](sources.md)** — header and verification conventions, no entries yet.
 - **[README.md](README.md)** — the main explainer: the one idea, why signature-based tooling misses it, the three routes text arrives by, what changed once assistants could act, and an honest account of what reduces exposure.
+- **[demo/payloads/](demo/payloads/)** — three benign payloads, escalating from a one-word tell to an omitted summary item to a relayed recommendation, each with the question to ask and the tell to look for.
 
 ### Notes
-- `practitioner-built`. The demo, annotated examples, and checklist land in later commits, so the README links to them ahead of their arrival.
+- `practitioner-built`. Annotated examples and the checklist land in later commits, so the README links to them ahead of their arrival.
+- Demo payloads are run against the reader's own assistant. Nothing in this repository simulates a model, and results vary between assistants, attempts, and model versions.
